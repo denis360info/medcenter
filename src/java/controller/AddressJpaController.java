@@ -20,7 +20,7 @@ import models.Address;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class AddressJpaController implements Serializable {
 

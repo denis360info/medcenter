@@ -21,7 +21,7 @@ import models.Office;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class OfficeJpaController implements Serializable {
 

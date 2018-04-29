@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 @Entity
 @Table(name = "office")
@@ -47,11 +47,6 @@ public class Office implements Serializable {
     public Office(Integer numberOffice) {
         this.numberOffice = numberOffice;
     }
-   public Office(Integer numberOffice, Integer level) {
-        this.numberOffice = numberOffice;
-        this.level = level;
-    }
-
 
     public Integer getNumberOffice() {
         return numberOffice;

@@ -20,7 +20,7 @@ import models.WorkPlace;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class WorkPlaceJpaController implements Serializable {
 

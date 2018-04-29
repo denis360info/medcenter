@@ -20,7 +20,7 @@ import models.Timetable;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class TimetableJpaController implements Serializable {
 

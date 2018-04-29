@@ -23,7 +23,7 @@ import models.Personal;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class PersonalJpaController implements Serializable {
 

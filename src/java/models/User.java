@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 @Entity
 @Table(name = "user")
@@ -62,9 +62,8 @@ public class User implements Serializable {
     private String name;
     @Column(name = "patronymic")
     private String patronymic;
-    @Basic(optional = false)
     @Column(name = "telephone")
-    private int telephone;
+    private Integer telephone;
     @OneToMany(mappedBy = "idUser")
     private List<MedicalRecord> medicalRecordList;
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "user")
@@ -81,11 +80,6 @@ public class User implements Serializable {
         this.idUser = idUser;
     }
 
-    public User(Integer idUser, int telephone) {
-        this.idUser = idUser;
-        this.telephone = telephone;
-    }
-
     public Integer getIdUser() {
         return idUser;
     }
@@ -100,6 +94,22 @@ public class User implements Serializable {
 
     public void setLogin(String login) {
         this.login = login;
+    }
+
+    public User(Integer idUser, String login, String password, String status, String email, String surname, String name, String patronymic, Integer telephone, List<MedicalRecord> medicalRecordList, Personal personal, Doctor doctor, Patient patient) {
+        this.idUser = idUser;
+        this.login = login;
+        this.password = password;
+        this.status = status;
+        this.email = email;
+        this.surname = surname;
+        this.name = name;
+        this.patronymic = patronymic;
+        this.telephone = telephone;
+        this.medicalRecordList = medicalRecordList;
+        this.personal = personal;
+        this.doctor = doctor;
+        this.patient = patient;
     }
 
     public String getPassword() {
@@ -150,11 +160,11 @@ public class User implements Serializable {
         this.patronymic = patronymic;
     }
 
-    public int getTelephone() {
+    public Integer getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(int telephone) {
+    public void setTelephone(Integer telephone) {
         this.telephone = telephone;
     }
 

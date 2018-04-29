@@ -1,7 +1,7 @@
 package constants;
 
 public enum PageName {
-    INDEX("/admin/main.jsp"),ERROR("/error.jsp"),SIGN_IN("/sign_in.jsp");
+    INDEX("/admin/main.jsp"),ERROR("/error.jsp"),SIGN_IN("/sign_in.jsp"),REGISTRATION("/registration/registration.jsp");
 
     private String path;
 

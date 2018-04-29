@@ -24,7 +24,7 @@ import models.Vaccinations;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class MedicalRecordJpaController implements Serializable {
 

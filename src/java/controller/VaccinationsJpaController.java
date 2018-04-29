@@ -20,7 +20,7 @@ import models.Vaccinations;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class VaccinationsJpaController implements Serializable {
 

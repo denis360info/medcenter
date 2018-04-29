@@ -26,7 +26,7 @@ import models.Doctor;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class DoctorJpaController implements Serializable {
 

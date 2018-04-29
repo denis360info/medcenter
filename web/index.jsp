@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Медицинский центр Марченко</title>
         <meta charset="windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link href="css/main_style.css" rel="stylesheet" type="text/css"/>
@@ -20,7 +20,9 @@
 <nav class="top-menu">
   <a class="navbar-logo" href=""></a>
   <ul class="menu-main">
-    <li> <a href="/MedCenterMarchenko/login/login" />Login</a></li>
+    <li> <a href="/MedCenterMarchenko/login/login" />Авторизация</a></li>
+    <li> <a href="/MedCenterMarchenko/site/registration" />Регистрация</a></li>
+    <li><a href="">Contact</a></li>
     <li><a href="">About</a></li>
     <li><a href="">Story</a></li>
     <li><a href="">Shop</a></li>
