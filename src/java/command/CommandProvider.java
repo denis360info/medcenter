@@ -1,6 +1,7 @@
 package command;
 
 
+import command.impl.Registration;
 import command.impl.SignIn;
 import command.impl.SignUp;
 import static java.lang.System.console;
@@ -18,6 +19,7 @@ public class CommandProvider {
 
         commands.put(CommandName.SIGN_IN,new SignIn());
         commands.put(CommandName.SIGN_UP,new SignUp());
+        commands.put(CommandName.REGISTRATION,new Registration());
 
     }
 

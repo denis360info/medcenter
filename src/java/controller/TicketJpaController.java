@@ -21,7 +21,7 @@ import models.Ticket;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class TicketJpaController implements Serializable {
 

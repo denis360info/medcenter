@@ -21,7 +21,7 @@ import models.Service;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class ServiceJpaController implements Serializable {
 

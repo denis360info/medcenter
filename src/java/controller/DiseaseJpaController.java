@@ -19,7 +19,7 @@ import models.MedicalRecord;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class DiseaseJpaController implements Serializable {
 

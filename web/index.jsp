@@ -1,14 +1,14 @@
 <%-- 
     Document   : index
     Created on : 26.04.2018, 23:30:39
-    Author     : ����
+    Author     : Íèêà
 --%>
 
 <%@page contentType="text/html" pageEncoding="windows-1251"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Ìåäèöèíñêèé öåíòð Ìàð÷åíêî</title>
         <meta charset="windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link href="css/main_style.css" rel="stylesheet" type="text/css"/>
@@ -19,9 +19,12 @@
 
 <nav class="top-menu">
   <a class="navbar-logo" href=""></a>
-  <ul class="menu-main">
+
+    <li> <a href="/MedCenterMarchenko/login/login" />Àâòîðèçàöèÿ</a></li>
+    <li> <a href="/MedCenterMarchenko/site/registration" />Ðåãèñòðàöèÿ</a></li>
     <li> <a href="/MedCenterMarchenko/login/login" />Login</a></li>
     <li><a href="/MedCenterMarchenko/about.jsp">About</a></li>
+
     <li><a href="">Story</a></li>
     <li><a href="">Shop</a></li>
     <li><a href="">Gallery</a></li>
@@ -36,7 +39,7 @@
 
                     <div class="col-md-6">
                         <form class="form-horizontal" method="post" action="/MedCenterMarchenko/site/sign_in">
-                            <span class="heading">�����������</span>
+                            <span class="heading">ÀÂÒÎÐÈÇÀÖÈß</span>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="inputLogin"
                                        placeholder="Login" name="login_in">
@@ -53,8 +56,8 @@
                                     <input type="checkbox" value="none" id="checkbox1" name="check"/>
                                     <label for="checkbox1"></label>
                                 </div>
-                                <span class="text">�������������</span>
-                                <button type="submit" class="btn btn-default">����</button>
+                                <span class="text">Àäìèíèñòðàòîð</span>
+                                <button type="submit" class="btn btn-default">ÂÕÎÄ</button>
                             </div>
                         </form>
                     </div>

@@ -32,7 +32,7 @@ public class SignIn implements ICommand {
 //                HttpSession session = request.getSession();
 //                session.setAttribute("user",);
 //            }
-            Office office = new Office(123, 123);
+            //Office office = new Office(123, 123);
          //   OfficeJpaController of = new  OfficeJpaController();
       
           //  of.create(office);

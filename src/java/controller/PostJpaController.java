@@ -22,7 +22,7 @@ import models.Post;
 
 /**
  *
- * @author Денис
+ * @author Ника
  */
 public class PostJpaController implements Serializable {
 
