@@ -27,7 +27,7 @@ import models.Office;
  * @author Денис
  */
 @WebServlet(name="Controller",
-        urlPatterns="/MarchenkoMedCenter/site/*")
+        urlPatterns="/MedCenterMarchenko/site/*")
  
 public class ApiServlet extends HttpServlet {
     private final static CommandProvider commandProvider = CommandProvider.getInstance();

@@ -21,7 +21,7 @@
   <a class="navbar-logo" href=""></a>
   <ul class="menu-main">
     <li> <a href="/MedCenterMarchenko/login/login" />Login</a></li>
-    <li><a href="">About</a></li>
+    <li><a href="/MedCenterMarchenko/about.jsp">About</a></li>
     <li><a href="">Story</a></li>
     <li><a href="">Shop</a></li>
     <li><a href="">Gallery</a></li>
