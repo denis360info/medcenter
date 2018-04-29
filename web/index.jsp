@@ -1,14 +1,14 @@
 <%-- 
     Document   : index
     Created on : 26.04.2018, 23:30:39
-    Author     : Ника
+    Author     : ГЌГЁГЄГ 
 --%>
 
 <%@page contentType="text/html" pageEncoding="windows-1251"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Медицинский центр Марченко</title>
+        <title>ГЊГҐГ¤ГЁГ¶ГЁГ­Г±ГЄГЁГ© Г¶ГҐГ­ГІГ° ГЊГ Г°Г·ГҐГ­ГЄГ®</title>
         <meta charset="windows-1251">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link href="css/main_style.css" rel="stylesheet" type="text/css"/>
@@ -19,11 +19,12 @@
 
 <nav class="top-menu">
   <a class="navbar-logo" href=""></a>
-  <ul class="menu-main">
-    <li> <a href="/MedCenterMarchenko/login/login" />Авторизация</a></li>
-    <li> <a href="/MedCenterMarchenko/site/registration" />Регистрация</a></li>
-    <li><a href="">Contact</a></li>
-    <li><a href="">About</a></li>
+
+    <li> <a href="/MedCenterMarchenko/login/login" />ГЂГўГІГ®Г°ГЁГ§Г Г¶ГЁГї</a></li>
+    <li> <a href="/MedCenterMarchenko/site/registration" />ГђГҐГЈГЁГ±ГІГ°Г Г¶ГЁГї</a></li>
+    <li> <a href="/MedCenterMarchenko/login/login" />Login</a></li>
+    <li><a href="/MedCenterMarchenko/about.jsp">About</a></li>
+
     <li><a href="">Story</a></li>
     <li><a href="">Shop</a></li>
     <li><a href="">Gallery</a></li>
@@ -38,7 +39,7 @@
 
                     <div class="col-md-6">
                         <form class="form-horizontal" method="post" action="/MedCenterMarchenko/site/sign_in">
-                            <span class="heading">АВТОРИЗАЦИЯ</span>
+                            <span class="heading">ГЂГ‚Г’ГЋГђГ€Г‡ГЂГ–Г€Гџ</span>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="inputLogin"
                                        placeholder="Login" name="login_in">
@@ -55,8 +56,8 @@
                                     <input type="checkbox" value="none" id="checkbox1" name="check"/>
                                     <label for="checkbox1"></label>
                                 </div>
-                                <span class="text">Администратор</span>
-                                <button type="submit" class="btn btn-default">ВХОД</button>
+                                <span class="text">ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г°</span>
+                                <button type="submit" class="btn btn-default">Г‚Г•ГЋГ„</button>
                             </div>
                         </form>
                     </div>
